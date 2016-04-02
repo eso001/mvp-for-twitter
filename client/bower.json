@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "authors": [
+    "Eric <eso001@ucr.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "ui-router#^0.2.18"
+  }
+}

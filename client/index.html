@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='mvp'>
+<head>
+<script src='/client/bower_components/angular/angular.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="/client/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<title>My Inner Bird</title>
+</head>
+<body ng-controller='mainController'>
+<script src="/client/mvp.js"></script>
+
+<h1>My Inner Bird</h1>
+<form>
+	<input class="typer" placeholder="Whose tweets would you like:" ng-model="username"></input>
+	<input class="submitter" type="submit" ng-click="sendUser()"></submit>
+</form>
+<div ng-repeat="items in allData">{{hello + " " + username}}
+<div>{{items.text}}</div></div>
+
+<section ui-view></section>
+
+</body>
+</html>
